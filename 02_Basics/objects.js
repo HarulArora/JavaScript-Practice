@@ -60,8 +60,20 @@
 
 // ---------------------Add two Objects---------------------------------- 
 
-const obj1 = {1 : 2, 3 : 4}
-const obj2 = {3 : 5, 4 : 6}
+// const obj1 = {1 : 2, 3 : 4}
+// const obj2 = {3 : 5, 4 : 6}
 
-const obj3 = Object.assign({}, obj1, obj2)
-console.log(obj3)
+// const obj3 = Object.assign({}, obj1, obj2)
+// console.log(obj3)
+
+
+// ---------------------Object de-structure-------------------------------
+
+const course = {
+    coursename : "JavaScript",
+    price : "999"
+}
+
+const {coursename} = course
+
+console.log(coursename)
