@@ -15,9 +15,11 @@
 
 // -------------------------------------------------------------------------------------
 
-function user(username, loginCount, isLoggedIn) {
-    this.username = username
-    this.loginCount = loginCount
-    this.isLoggedIn = isLoggedIn
-    return this
-}
+// function user(username, loginCount, isLoggedIn) {
+//     this.username = username
+//     this.loginCount = loginCount
+//     this.isLoggedIn = isLoggedIn
+//     return this
+// }
+
+
